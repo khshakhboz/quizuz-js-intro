@@ -1,0 +1,119 @@
+/* Reset some default styles */
+body,
+h1,
+h4,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header h4 {
+  font-size: 1.2em;
+}
+
+header span {
+  color: #ffcc00;
+}
+
+header p {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+#questionTxt {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+#optionsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  background-color: lightseagreen;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  flex-grow: 1;
+}
+
+#answerTxt {
+  margin-top: 20px;
+}
+
+#nextBtn {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* ... (remaining styles) */
+
+/* Add more styles as needed */
